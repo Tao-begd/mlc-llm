@@ -1,6 +1,7 @@
 <p>&nbsp;</p>
 <h1 data-breakpage>MLC Android 中文文档</h1>
 <p>参考自<a href='https://llm.mlc.ai/docs/index.html'>MLC使用文档</a></p>
+<p>该分支拷贝自2023年12月，目前已过时，如有需要还请参考官方原文档</p>
 <h3>MLC介绍</h3>
 <p>这里稍微讲解了一些MLC的基本概念，以帮助我们使用和了解 MLC LLM。</p>
 <p>MLC-LLM 由三个不同的子模块组成：模型定义、模型编译和模型运行。</p>
