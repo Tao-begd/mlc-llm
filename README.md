@@ -5,7 +5,7 @@
 <h3>MLC介绍</h3>
 <p>这里稍微讲解了一些MLC的基本概念，以帮助我们使用和了解 MLC LLM。</p>
 <p>MLC-LLM 由三个不同的子模块组成：模型定义、模型编译和模型运行。</p>
-<p> <img src='https://llm.mlc.ai/docs/_images/project-structure.svg' alt='项目结构' referrerPolicy='no-referrer' /> </p>
+<p> <img src='https://llm.mlc.ai/docs/_images/project-workflow.svg' alt='项目结构' referrerPolicy='no-referrer' /> </p>
 <p><center>MLC LLM 的三个独立子模块</center></p>
 <p><strong>➀ Python 中的模型定义。</strong>MLC 提供各种预定义架构，例如 Llama（例如 Llama2、Vicuna、OpenLlama、Wizard）、GPT-NeoX（例如 RedPajama、Dolly）、RNN（例如 RWKV）和 GPT-J（例如MOSS）。开发人员可以仅使用纯 Python 定义模型，而无需接触编码。</p>
 <p><strong>➁ Python 中的模型编译。</strong><a href='https://llm.mlc.ai/docs/install/tvm.html'>模型由TVM Unity</a>编译器编译，其中编译配置为纯 Python。MLC LLM 将基于 Python 的模型量化导出到模型库并量化模型权重。可以用纯 Python 开发量化和优化算法，以针对特定用例压缩和加速 LLM。</p>
